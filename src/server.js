@@ -18,6 +18,10 @@ const port = 5001
 
 app.use('/', express.static("public")) // send the public folder in the respone when a request is recieved
 
+app.get('/home', (req, res)=>{
+    res.send("Hello World")
+})
+
 app.get('/about', (req, res)=>{
     res.send("Hello World 2")
 })
@@ -27,7 +31,7 @@ app.get('/html', (req, res)=>{
 })
 
 app.get('*', (req, res) =>{
-    res.send("<h1>404 Page Not Found</h1>")
+    res.send("<h1 style='font-size:30px; color:red; padding-top: 40vh; padding-left:40vw'> 404 Error</h1> ")
 })
 
 app.listen(port, () => {

@@ -1,4 +1,14 @@
-#topNav {
+body{
+    padding: 0;
+    margin: 0;
+    background-color: chocolate;
+}
+button{
+    background-color: 18974;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topNav {
     background-color: black;
     display: flex;
     align-items: center;
