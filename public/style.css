@@ -9,7 +9,7 @@ button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .topNav {
-    background-color: black;
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,6 +18,29 @@ button{
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  #logo{
-    width: 50px;
+  .logo{
+    width: 170px;
+  }
+  .rowFlex {
+    border: solid 2px green;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+  }
+
+  .newsImage {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 450px;
+    width: 530px;
+    padding: 10px;
+  }
+  .imageText{
+display: flex;
+flex-direction: column;
+  }
+  .dogText{
+    display: flex;
+    align-self: center;
   }

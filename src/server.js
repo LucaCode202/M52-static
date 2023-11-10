@@ -31,7 +31,8 @@ app.get('/html', (req, res)=>{
 })
 
 app.get('*', (req, res) =>{
-    res.send("<h1 style='font-size:30px; color:red; padding-top: 40vh; padding-left:40vw'> 404 Error</h1> ")
+    res.send("<h1 style='font-size:30px; color:red; padding-top: 40vh; padding-left:40vw'> 404 Error</h1>")
+    res.send("<button type="button" onclick="location.href='/home.html'">Home</button>")
 })
 
 app.listen(port, () => {
