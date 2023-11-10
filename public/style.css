@@ -2,11 +2,39 @@ body{
     padding: 0;
     margin: 0;
     background-color: white;
+    font-family: fantasy;
+    font-size: large;
 }
 button{
     background-color: 18974;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #a97d0c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+.title {
+  display: flex;
+  justify-content: left;
+  background-color: orange;
+}
+.flexyEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+.logoTop{
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .topNav {
     background-color: orange;
@@ -15,8 +43,11 @@ button{
     justify-content: space-around;
     padding-left: 500px;
     padding-right: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
+  }
+  .textWhite{
+    font-weight: bold;
+    color: white;
   }
   .logo{
     width: 170px;
@@ -40,7 +71,24 @@ button{
 display: flex;
 flex-direction: column;
   }
+  .padLR{
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .boldy{
+    font-weight: bolder;
+  }
   .dogText{
     display: flex;
     align-self: center;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .center{
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
