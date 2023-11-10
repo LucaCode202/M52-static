@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: chocolate;
+    background-color: white;
 }
 button{
     background-color: 18974;
@@ -9,7 +9,7 @@ button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .topNav {
-    background-color: blue;
+    background-color: orange;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,7 +22,7 @@ button{
     width: 170px;
   }
   .rowFlex {
-    border: solid 2px green;
+    border: solid 2px orange;
     display: flex;
     justify-content: space-evenly;
     background-size: cover;
